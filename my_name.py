@@ -1,6 +1,7 @@
 """Victor"""
 
 def main():
-    print("My name is Victor")
-
+    name = input("Name? ")
+    age = input("Age? ")
+    print("Your name is {} and age is {}". format(name, age))
 main()
